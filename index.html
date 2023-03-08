@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+    <title>CV</title>
+</head>
+<body>
+
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar"  onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#experiencia">Experiencia</a>
+                    <a href="#educacion">Educación</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
+            </header>
+            <div class="info">
+                <h1>Shawn Tucker</h1>
+                <h2>Desarrollador Web Frontend</h2>
+            </div>
+            <div class="foto">
+                <img src="https://randomuser.me/api/portraits/men/61.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <h3>Detelles personales</h3>
+
+            <p class="especial">Descripción</p>
+            <p>Soy desarrollador frontend junior en busca de mi primera experiencia profesional.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-descripcion">Perfil</span>
+                    <p>Soy proactivo y dinámico, con muchas ideas creativas y busco constantemente soluciones a los problemas.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-descripcion">Ubicación</span>
+                    <p>6852 Camden Ave, Argentina</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-descripcion">Intereses</span>
+                    <p>Me gusta programar y diseñar</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <div class="icono" title="HTML">
+                        <img src="src/img/html-1.svg" alt="html">
+                    </div>
+                    <div class="span">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icono" title="CSS">
+                        <img src="src/img/css-3.svg" alt="css">
+                    </div>
+                    <div class="span">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icono" title="Javascript">
+                        <img src="src/img/logo-javascript.svg" alt="javascript">
+                    </div>
+                    <div class="span">
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icono" title="Git/GitHub">
+                        <img src="src/img/git-icon.svg" alt="git/github">
+                    </div>
+                    <div class="span">
+                        <span>Git/GitHub</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experiencia" id="experiencia">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Experiencia</h2>
+            <div class="info">
+                <h3>Desarrollador frontend en Ticmas Frontend Academy(2023)</h3>
+                <p>Me mis tareas eran la creación de CV mediante tecnologías en las que me especializo, como el que esta viendo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="educacion" id="educacion">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Educación</h2>
+            <div class="info">
+                <h3>Primeros pasos en Frontend(2023)</h3>
+                <p>Me formé con el programa "Argentina Programa 4.0" en Ticmas Academy</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Contáctame!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-mobile"></i>Teléfono
+                    </h2>
+                    <span class="contacto-info">(900) 409-9606</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i>Correo
+                    </h2>
+                    <div class="div-span">
+                        <span class="contacto-info">
+                            <a href="mailto:shawn@gmail.com">shawn@gmail.com</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i>Web
+                    </h2>
+                    <span class="contacto-info">
+                        <a href="https://shawn.com" target="_blank">shawn.com</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="redes" id="redes">
+        <div class="contenido-seccion">
+            <a href="https://github.com" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="pie-pagina" id="pie-pagina">
+        <div class="contenido-seccion">
+            <span class="copy">Copyright &#169 Argentina Programa 4.0</span>
+        </div>
+    </footer>
+
+
+    <script src="src/main.js"></script>
+</body>
+</html>
